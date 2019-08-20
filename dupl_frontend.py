@@ -17,7 +17,7 @@ class Window(object):
         self.root.wm_title("Duplicates")
         self.dir_path = os.path.dirname(os.path.realpath(__file__))
 
-        self.root.iconbitmap(r'{}\book.ico'.format(self.dir_path))
+        self.root.iconbitmap(r'{}\icon.ico'.format(self.dir_path))
 
         # root label
         l1 = Label(root, text="separator")
