@@ -247,7 +247,7 @@ class Window(object):
     def popup_run_options(self):
         self.popup = Toplevel()
         self.popup.wm_title("Run options")
-        self.popup.iconbitmap(r'{}\book.ico'.format(self.dir_path))
+        self.popup.iconbitmap(r'{}\icon.ico'.format(self.dir_path))
 
         # set of functions which allow user to define columns that should be analysed
         self.column_list = []
